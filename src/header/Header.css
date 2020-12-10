@@ -1,0 +1,48 @@
+.heading {
+  position: relative;
+}
+
+.title {
+  font-weight: normal;
+  text-align: left;
+  color: lightgray;
+}
+
+.name {
+  color: black;
+  display: block;
+}
+
+
+.contact-info {
+display: none;  
+}
+
+@media(min-width: 900px) {
+  .contact-info {
+    display: block;
+    font-weight: normal;
+    text-align: left;
+    margin-top: -40px;
+    color: black;
+  }
+
+  .title {
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .name {
+    color: black;
+    display: inline;
+  }
+}
+
+.contact-info p {
+  line-height: 4px;
+}
+
+.contact-content {
+  display: block;
+  font-size: 1.1em;
+}

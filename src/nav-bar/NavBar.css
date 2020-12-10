@@ -1,0 +1,105 @@
+div ul#profile-nav li {
+  margin-left: 25px;
+  color: rgb(177, 171, 171);
+  cursor: pointer;
+  display: block;
+}
+
+div ul#profile-nav li:hover {
+  background-color: rgba(177, 171, 171, 0.1);
+}
+
+.menu-icon-container {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.menu-icon {
+  position: absolute;
+  width: 2em;
+  height: 2px;
+  background-color: black;
+  right: 20px;
+  top: 30px;
+}
+
+.menu-icon::before {
+  content: '';
+  position: absolute;
+  margin-top: 1.1em;
+  width: 2em;
+  height: 2px;
+  background-color: black;
+}
+
+.menu-icon::after {
+  content: '';
+  position: absolute;
+  margin-top: 0.5em;
+  width: 2em;
+  height: 2px;
+  background-color: black;
+}
+
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media(min-width: 900px) {
+  div ul#profile-nav li {
+    display:inline;
+    margin-left: 25px;
+    color: rgb(177, 171, 171);
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .hide {
+    display: block;
+  }
+  
+}
+
+div ul#profile-nav .selected {
+  color: black;
+
+}
+
+#profile-nav {
+  position: relative;
+  text-align: right;
+}
+
+.separtionLine {
+  border-bottom: 1px solid gainsboro;
+}
+
+.traveler {
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: black;
+  animation-duration: 10s;
+  animation-name: travel;
+  animation-iteration-count: infinite;
+}
+
+@keyframes travel {
+  0% { margin-left: 0 }
+  50% { margin-left: 0 }
+  75% { margin-left: calc(100% - 5.8em);}
+  100% { margin-left: 0; }
+}

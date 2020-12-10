@@ -1,13 +1,88 @@
 body {
-  margin: 0;
+  margin: 0mm;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-size: calc(8px + 0.3vw)  */
+}
+
+
+li {
+  font-size: 1.2em;
+}
+
+li > p {
+  font-size: 1em;
+}
+
+
+p {
+  font-size: 1.2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (min-width: 320px){
+  body { 
+    font-size: calc(8px + 0.1vw)  
+  }
+
+  li {
+    font-size: 1.5em;
+  }
+  
+  li > p {
+    font-size: 1em;
+  }
+  
+  
+  p {
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 561px) {
+  body { 
+    font-size: calc(8px + 0.2vw)  
+  }
+
+  li {
+    font-size: 1.5em;
+  }
+  
+  li > p {
+    font-size: 1em;
+  }
+  
+  
+  p {
+    font-size: 1.4em;
+  }
+}
+
+
+@media (min-width: 1025px)  {
+  body { 
+    font-size: calc(8px + 0.2vw)  
+  }
+}
+
+@media (min-width: 1200px)  {
+  body { 
+    font-size: calc(8px + 0.2vw)  
+  }
+
+}
+
+
+
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
