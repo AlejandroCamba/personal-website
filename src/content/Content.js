@@ -5,25 +5,29 @@ import { PortfolioProjectRenderer } from './renderers/PortfolioProjectRenderer';
 import { SkillSetRenderer } from './renderers/SkillSetRenderer';
 import { TextRenderer } from './renderers/TextRenderer';
 import './Content.css';
+import { MenuRenderer } from './renderers/MenuRenderer';
 
 export class Content extends Component {
-  downloadableStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    flexWrap: 'wrap',
-    height: '1087px',
-    width: '943px',
-    margin: '0',
-    border: '1px solid blue',
-    fontSize: '12px'
-  };
-  
+    downloadableStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
+        height: '1087px',
+        width: '943px',
+        margin: '0',
+        fontSize: '12px',
+    };
+
     sectionRendererMap = new Map([
-        ['contactForm', (content) => <ContactFormRenderer/>],
-        ['list', (content) => <ListRenderer list={content} />],
-        ['projects',  (content) => <PortfolioProjectRenderer projects={content} />],
+        ['contactForm', (content) => <ContactFormRenderer />],
+        ['list', (content, style, options) => <ListRenderer list={content} value={options.key}/>],
+        ['projects', (content) => <PortfolioProjectRenderer projects={content} />],
         ['skills', (content) => <SkillSetRenderer skillList={content} />],
-        ['text', (content, style) => <TextRenderer parragraph={content} downloadableStyle={style}/>],
+        ['menu', (content, style, options) => <MenuRenderer downloadableStyle={style} tabs={content.tabs} children={options.children}/>],
+        [
+            'text',
+            (content, style, options) => <TextRenderer parragraph={content} downloadableStyle={style} value={options.key} />,
+        ],
     ]);
 
     contentToRender = null;
@@ -32,17 +36,39 @@ export class Content extends Component {
         super(props);
     }
 
+    renderSections = (display, downloadAsCvStyle) => {
+        console.log('pasa...');
+        return display?.map((section) => {
+            if (section && section.structure) {
+                return section.structure.map((sectionElement) => {
+                    if (sectionElement.structure) {
+                        return this.sectionRendererMap.get(sectionElement.contentName)(
+                          sectionElement.content,
+                          downloadAsCvStyle,
+                          { children: this.renderSections([sectionElement]) }
+                        );
+
+                    } else {
+                        return this.sectionRendererMap.get(sectionElement.contentName)(
+                            sectionElement.content,
+                            downloadAsCvStyle,
+                            {
+                              key: sectionElement.key
+                            }
+                        );
+                    }
+                });
+            }
+        });
+    };
+
     render() {
         return (
-            <div className="content-body" style={ this.props.downloadableStyle ? this.downloadableStyle : null }>
-                {this.props.display?.map((section) => {
-                    if (section && section.structure) {
-                      return section.structure.map((sectionElement) => {
-                        return this.sectionRendererMap.get(sectionElement.contentName)(sectionElement.content, this.props.downloadableStyle)                        
-                      }
-                    );
-                    }
-                })}
+            <div
+                className='content-body'
+                style={this.props.downloadableStyle ? this.downloadableStyle : null}
+            >
+                {this.renderSections(this.props.display, this.props.downloadableStyle)}
             </div>
         );
     }

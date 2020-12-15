@@ -11,7 +11,6 @@ class App extends React.Component {
     downloadableStyle = {
       height: '1272px',
       width: '973px',
-      border: '1px solid red'
     };
 
     navBarOptions = [];

@@ -7,10 +7,8 @@ export class TextRenderer extends Component {
       flex: '0 1',
       padding: '0 0',
       margin: '0',
-      border: '1px solid'
     },
     parragraph: {
-      border: '1px solid yellow',
       padding: '5px 20px'
     }
   }

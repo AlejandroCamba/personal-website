@@ -1,0 +1,22 @@
+.menu-container {
+  display: flex;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.menu > li {
+  padding: 1em 1.5em;
+  cursor: pointer;
+  color: black;
+}
+
+.menu > .active {
+  padding:  1em 1.5em;
+  background-color: black;
+  color: white;
+}

@@ -11,7 +11,7 @@ export class DownloadAsCvButton extends Component {
 
     downloadPdf = () => {
         if(navigator.vendor.match(/apple/i)) {
-            alert('Sorry, downloads on apple products are not yet supported. \n Please change browsers or write me an email requesting my CV and i\'ll gladly send it to you! ')
+            alert('Sorry, downloads on safari browsers are not supported. Please change to a different browser or write me an email requesting my CV and i\'ll gladly send it to you! ')
             return;
         }
         

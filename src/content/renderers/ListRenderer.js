@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './styles/listRenderer.css';
 
 export class ListRenderer extends Component {
-  downloadableStyle = {
-    width: '400px',
-    flex: '0 1'
-};
+    downloadableStyle = {
+        width: '400px',
+        flex: '0 1',
+    };
 
     constructor(props) {
         super(props);
@@ -15,20 +16,21 @@ export class ListRenderer extends Component {
     render() {
         return (
             <div>
-              
-                <ul>
-                  {
-                  this.props.list.map((element) => 
-                    <li>
-                      <label>{element.title}</label><span>{element.fromDate}</span><span>{element.toDate}</span>
-                      <br></br>
-                      <span>{element.place}</span>
-                      <p>{element.body}</p>
-                    </li>
-                  )
-                  }
+                <ul className='experience-list'>
+                    {this.props.list.map((element) => (
+                        <li>
+                            <label><b>{element.title}</b></label>
+                            <div className='date'>
+                                <span className='date-specific'>{element.fromDate}</span>
+                                <div className="separator">|</div>
+                                <span className='date-specific'>{element.toDate}</span>
+                            </div>
+                            <br></br>
+                            <span>{element.place}</span>
+                            <p>{element.body}</p>
+                        </li>
+                    ))}
                 </ul>
-              
             </div>
         );
     }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 export class SkillSetRenderer extends Component {
-  downloadableStyle = {
-    width: '496px',
-    flex: '0 1'
-};
+    downloadableStyle = {
+        width: '400px',
+        flex: '0 1',
+    };
 
     constructor(props) {
         super(props);
@@ -15,6 +15,16 @@ export class SkillSetRenderer extends Component {
     render() {
         return (
             <div>
+                <ul>
+                    {this.props.list.map((element) => (
+                        <li>
+                            <label><b>{element.title}</b></label>
+                            <div>
+                                <span className='skill-stat'>{element.fromDate}</span>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
             </div>
         );
     }

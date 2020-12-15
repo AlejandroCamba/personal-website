@@ -5,92 +5,171 @@
     "phone": "xxx-xxxx",
     "address": "",
     "civilStatus": "Married",
-    "dateOfBirth": "14/10/1994", 
+    "dateOfBirth": "14/10/1994",
     "sections": {
         "status": {
-          "tabName": "Status",
-          "allowInCv": false,
-          "structure": [
-
-          ]
+            "tabName": "Status",
+            "allowInCv": false,
+            "structure": []
         },
         "contact": {
-          "tabName": "Contact",
-          "allowInCv": false,
-          "structure": [
-
-          ]
+            "tabName": "Contact",
+            "allowInCv": false,
+            "structure": [
+                {
+                    "contentName": "contactForm"
+                }
+            ]
         },
         "open-source": {
-          "tabName": "Open Source",
-          "allowInCv": false,
-          "structure": [
-
-          ]
+            "tabName": "Open Source",
+            "allowInCv": false,
+            "structure": []
         },
         "about-me": {
-          "tabName": "About Me",
-          "allowInCv": true,
-          "structure": [
-            {
-              "contentName": "text",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros neque, a viverra metus vulputate at. Sed hendrerit metus sit amet nunc fermentum euismod. Duis elementum turpis augue, quis vestibulum ipsum fermentum quis. Vivamus hendrerit in metus vel sagittis. Vivamus id turpis feugiat, tincidunt sapien nec, maximus leo. Proin finibus nisl vel metus gravida, et elementum libero sollicitudin. Sed eu velit posuere, commodo ante vitae, rutrum risus. Aliquam quis mollis enim. Fusce rhoncus dignissim metus, in tincidunt libero suscipit a. Aenean porta suscipit diam non consectetur. Fusce sit amet lorem enim. Quisque nec iaculis ligula, ut tempus tellus. Phasellus id pharetra quam, vitae consequat dolor. Praesent accumsan a nunc quis malesuada."
-            },
-            {
-              "contentName": "text",
-              "content": "Quisque at risus in nibh congue pretium. Praesent mollis ante ac leo mattis, nec tempor erat dignissim. Nam quis nulla quis risus blandit efficitur. Donec pretium fringilla scelerisque. Praesent sed mattis ligula, at iaculis dolor. Nam venenatis auctor lacus, at cursus felis gravida eget. Curabitur molestie mauris ac augue blandit imperdiet. Duis eu viverra enim. Curabitur ut aliquam risus. Donec eu pulvinar dolor. Mauris vitae nisl vel risus tempus lacinia. Proin ut felis leo. Etiam volutpat velit sed consectetur interdum. Duis nec quam quis ante mollis interdum quis eget mi. Quisque placerat dignissim pretium. Nam vel neque quam."
-            },
-            {
-              "contentName": "text",
-              "content": "Ut porta, purus ac convallis ultrices, felis odio tempor risus, ut hendrerit urna sem sed leo. Vivamus euismod, mauris vel mattis sagittis, eros mi ornare erat, accumsan congue turpis neque ac mauris. In a tincidunt risus, in viverra justo. Praesent vitae commodo lacus. Quisque at ornare sem. Sed vel gravida sem, eget bibendum ligula. Fusce pretium pellentesque nunc. Quisque sagittis aliquet nunc sed malesuada. Ut efficitur pharetra lacus. Donec aliquet nisl maximus malesuada tempus. Sed consequat lacus eu fringilla dapibus. Sed mollis faucibus nisl at mollis. Nunc id mi quis ante gravida convallis."
-            }
-          ]
+            "tabName": "About Me",
+            "allowInCv": true,
+            "structure": [
+                {
+                    "contentName": "text",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros neque, a viverra metus vulputate at. Sed hendrerit metus sit amet nunc fermentum euismod. Duis elementum turpis augue, quis vestibulum ipsum fermentum quis. Vivamus hendrerit in metus vel sagittis. Vivamus id turpis feugiat, tincidunt sapien nec, maximus leo. Proin finibus nisl vel metus gravida, et elementum libero sollicitudin. Sed eu velit posuere, commodo ante vitae, rutrum risus. Aliquam quis mollis enim. Fusce rhoncus dignissim metus, in tincidunt libero suscipit a. Aenean porta suscipit diam non consectetur. Fusce sit amet lorem enim. Quisque nec iaculis ligula, ut tempus tellus. Phasellus id pharetra quam, vitae consequat dolor. Praesent accumsan a nunc quis malesuada."
+                },
+                {
+                    "contentName": "text",
+                    "content": "Quisque at risus in nibh congue pretium. Praesent mollis ante ac leo mattis, nec tempor erat dignissim. Nam quis nulla quis risus blandit efficitur. Donec pretium fringilla scelerisque. Praesent sed mattis ligula, at iaculis dolor. Nam venenatis auctor lacus, at cursus felis gravida eget. Curabitur molestie mauris ac augue blandit imperdiet. Duis eu viverra enim. Curabitur ut aliquam risus. Donec eu pulvinar dolor. Mauris vitae nisl vel risus tempus lacinia. Proin ut felis leo. Etiam volutpat velit sed consectetur interdum. Duis nec quam quis ante mollis interdum quis eget mi. Quisque placerat dignissim pretium. Nam vel neque quam."
+                },
+                {
+                    "contentName": "text",
+                    "content": "Ut porta, purus ac convallis ultrices, felis odio tempor risus, ut hendrerit urna sem sed leo. Vivamus euismod, mauris vel mattis sagittis, eros mi ornare erat, accumsan congue turpis neque ac mauris. In a tincidunt risus, in viverra justo. Praesent vitae commodo lacus. Quisque at ornare sem. Sed vel gravida sem, eget bibendum ligula. Fusce pretium pellentesque nunc. Quisque sagittis aliquet nunc sed malesuada. Ut efficitur pharetra lacus. Donec aliquet nisl maximus malesuada tempus. Sed consequat lacus eu fringilla dapibus. Sed mollis faucibus nisl at mollis. Nunc id mi quis ante gravida convallis."
+                }
+            ]
         },
         "experience": {
-          "tabName": "Experience",
-          "allowInCv": true,
-          "structure": [
-            {
-              "contentName": "list",
-              "content": [
-                { 
-                  "title": "Founder at GameItemPrices.com",
-                  "body": "Lorem Ipsum",
-                  "place": "Caracas",
-                  "fromDate": "Aug 2020",
-                  "toDate": "Present"
-                },
-                { 
-                  "title": "Frontend Developer",
-                  "body": "Lorem Ipsum",
-                  "place": "Andromeda Ventures  -  Caracas, Venezuela",
-                  "fromDate": "Jan 2019",
-                  "toDate": "Aug 2020"
-                },
-                { 
-                  "title": "Remote Frontend Developer",
-                  "body": "Lorem Ipsum",
-                  "place": "DOJO Madness  -  Berlin, Germany",
-                  "fromDate": "Sep 2017",
-                  "toDate": "Apr 2018"
-                },
-                { 
-                  "title": "Frontend Developer Intern",
-                  "body": "Lorem Ipsum",
-                  "place": "DOJO Madness  -  Berlin, Germany",
-                  "fromDate": "Jul 2017",
-                  "toDate": "Aug 2017"
+            "tabName": "Experience",
+            "allowInCv": true,
+            "structure": [
+                {
+                    "contentName": "list",
+                    "content": [
+                        {
+                            "title": "Founder at GameItemPrices.com",
+                            "body": "Lorem Ipsum",
+                            "place": "Caracas",
+                            "fromDate": "Aug 2020",
+                            "toDate": "Present"
+                        },
+                        {
+                            "title": "Frontend Developer",
+                            "body": "Lorem Ipsum",
+                            "place": "Andromeda Ventures  -  Caracas, Venezuela",
+                            "fromDate": "Jan 2019",
+                            "toDate": "Aug 2020"
+                        },
+                        {
+                            "title": "Remote Frontend Developer",
+                            "body": "Lorem Ipsum",
+                            "place": "DOJO Madness  -  Berlin, Germany",
+                            "fromDate": "Sep 2017",
+                            "toDate": "Apr 2018"
+                        },
+                        {
+                            "title": "Frontend Developer Intern",
+                            "body": "Lorem Ipsum",
+                            "place": "DOJO Madness  -  Berlin, Germany",
+                            "fromDate": "Jul 2017",
+                            "toDate": "Aug 2017"
+                        }
+                    ]
                 }
-              ]
-            }
-
-          ]
+            ]
         },
         "profile": {
-          "tabName": "Profile",
-          "structure": [
-
-          ]
+            "allowInCv": true,
+            "tabName": "Profile",
+            "structure": [
+                {
+                    "contentName": "menu",
+                    "content": {
+                      "tabs": ["Skills", "Languages", "Education"]
+                    },
+                    "structure": [
+                        {
+                            "contentName": "list",
+                            "key": "Skills",
+                            "content": [
+                                {
+                                    "title": "HTML",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": ""
+                                },
+                                {
+                                    "title": "CSS",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": ""
+                                },
+                                {
+                                    "title": "JavaScript",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": ""
+                                }
+                            ]
+                        },
+                        {
+                            "contentName": "list",
+                            "key": "Education",
+                            "content": [
+                                {
+                                    "title": "Informatics Engineering",
+                                    "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
+                                    "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
+                                    "fromDate": "Jan 2014",
+                                    "toDate": "Jan 2019"
+                                },
+                                {
+                                    "title": "Intensive German Language Course Abroad",
+                                    "body": "",
+                                    "place": "EF Education First. Munich, Germany",
+                                    "fromDate": "Jan 2013",
+                                    "toDate": "Nov 2013"
+                                }
+                            ]
+                        },
+                        {
+                            "contentName": "list",
+                            "key": "Languages",
+                            "content": [
+                                {
+                                    "title": "Spanish",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": "Native"
+                                },
+                                {
+                                    "title": "English",
+                                    "body": "",
+                                    "place": "TOEFL - 109",
+                                    "fromDate": "",
+                                    "toDate": "Work Proficient"
+                                },
+                                {
+                                    "title": "German",
+                                    "body": "",
+                                    "place": "Goethe Zertifikat B2",
+                                    "fromDate": "",
+                                    "toDate": "Work Proficient"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
