@@ -7,9 +7,11 @@ export class TextRenderer extends Component {
       flex: '0 1',
       padding: '0 0',
       margin: '0',
+      fontSize: '10px'
     },
     parragraph: {
-      padding: '5px 20px'
+      padding: '0px 20px',
+      margin: '0px'
     }
   }
 

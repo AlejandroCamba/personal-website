@@ -1,0 +1,26 @@
+.skillList {
+  list-style-type: none;
+}
+
+.skill {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.skill-container {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+.skill-bar { 
+  background-color: black !important; 
+}

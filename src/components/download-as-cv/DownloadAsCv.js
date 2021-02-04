@@ -28,7 +28,7 @@ export class DownloadAsCvButton extends Component {
     render() {
         return (
             <div>
-                <button className='download-as-cv' onClick={this.downloadPdf}>
+                <button className='download-as-cv' onClick={this.downloadPdf} style={this.props.downloadableStyle ? {display: 'none'} : {display: 'block'}}>
                     Download website as CV
                 </button>
             </div>

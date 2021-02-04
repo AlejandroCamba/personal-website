@@ -22,17 +22,7 @@ export class MenuRenderer extends Component {
     }
 
     componentDidMount() {
-        console.log(this.props.tabs[0]);
         this.selectedTab = [this.props.tabs[0]];
-    }
-
-    getSnapshotBeforeUpdate(prevProps) {
-        console.log('ppost', prevProps);
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log('ppos2', prevProps);
-        console.log('pstate', snapshot);
     }
 
     render() {
@@ -61,9 +51,10 @@ export class MenuRenderer extends Component {
                     })}
                 </ul>
                 <div>
-                    {this.props.children[0].filter(
+                    {
+                    this.props.children[0][1].filter(
                         (child) =>
-                            this.selectedTab.indexOf(child.props.value) !== -1 ||
+                            this.selectedTab.indexOf(child[1].props.value) !== -1 ||
                             !!this.props.downloadableStyle !== false
                     )}
                 </div>

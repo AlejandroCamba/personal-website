@@ -3,8 +3,13 @@ import './styles/listRenderer.css';
 
 export class ListRenderer extends Component {
     downloadableStyle = {
-        width: '400px',
-        flex: '0 1',
+        container: {
+            width: '400px',
+            flex: '0 1',
+            padding: '0 0',
+            margin: '0',
+            fontSize: '10px'
+          },
     };
 
     constructor(props) {
@@ -15,7 +20,7 @@ export class ListRenderer extends Component {
 
     render() {
         return (
-            <div>
+            <div style={this.props.downloadableStyle ? this.downloadableStyle.container : null}>
                 <ul className='experience-list'>
                     {this.props.list.map((element) => (
                         <li>

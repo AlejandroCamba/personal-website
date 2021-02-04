@@ -16,17 +16,46 @@ export class Content extends Component {
         width: '943px',
         margin: '0',
         fontSize: '12px',
+        cvTitle: {
+            display: true,
+            marginBottom: '-2px',
+        },
     };
 
     sectionRendererMap = new Map([
         ['contactForm', (content) => <ContactFormRenderer />],
-        ['list', (content, style, options) => <ListRenderer list={content} value={options.key}/>],
+        [
+            'list',
+            (content, style, options) => (
+                <ListRenderer list={content} value={options.key} downloadableStyle={style} />
+            ),
+        ],
         ['projects', (content) => <PortfolioProjectRenderer projects={content} />],
-        ['skills', (content) => <SkillSetRenderer skillList={content} />],
-        ['menu', (content, style, options) => <MenuRenderer downloadableStyle={style} tabs={content.tabs} children={options.children}/>],
+        [
+            'skills',
+            (content, style, options) => (
+                <SkillSetRenderer
+                    skillList={content}
+                    value={options.key}
+                    downloadableStyle={style}
+                />
+            ),
+        ],
+        [
+            'menu',
+            (content, style, options) => (
+                <MenuRenderer
+                    downloadableStyle={style}
+                    tabs={content.tabs}
+                    children={options.children}
+                />
+            ),
+        ],
         [
             'text',
-            (content, style, options) => <TextRenderer parragraph={content} downloadableStyle={style} value={options.key} />,
+            (content, style, options) => (
+                <TextRenderer parragraph={content} downloadableStyle={style} value={options.key} />
+            ),
         ],
     ]);
 
@@ -37,27 +66,48 @@ export class Content extends Component {
     }
 
     renderSections = (display, downloadAsCvStyle) => {
-        console.log('pasa...');
         return display?.map((section) => {
             if (section && section.structure) {
-                return section.structure.map((sectionElement) => {
-                    if (sectionElement.structure) {
-                        return this.sectionRendererMap.get(sectionElement.contentName)(
-                          sectionElement.content,
-                          downloadAsCvStyle,
-                          { children: this.renderSections([sectionElement]) }
-                        );
-
-                    } else {
-                        return this.sectionRendererMap.get(sectionElement.contentName)(
-                            sectionElement.content,
-                            downloadAsCvStyle,
-                            {
-                              key: sectionElement.key
-                            }
-                        );
-                    }
-                });
+                console.log('SECTION', section);
+                return [
+                    <h1
+                        style={
+                            this.props.downloadableStyle 
+                                ? this.downloadableStyle.cvTitle
+                                : null
+                        }
+                    >
+                        { section.tabName !== 'Profile' ? section.tabName : '' }
+                    </h1>,
+                    section.structure.map((sectionElement) => {
+                        if (sectionElement.structure) {
+                            return this.sectionRendererMap.get(
+                                sectionElement.contentName
+                            )(sectionElement.content, downloadAsCvStyle, {
+                                children: this.renderSections([sectionElement]),
+                            });
+                        } else {
+                            return [
+                                <h1
+                                    style={
+                                        this.props.downloadableStyle
+                                            ? this.downloadableStyle.cvTitle
+                                            : null
+                                    }
+                                >
+                                    {sectionElement.key}
+                                </h1>,
+                                this.sectionRendererMap.get(sectionElement.contentName)(
+                                    sectionElement.content,
+                                    downloadAsCvStyle,
+                                    {
+                                        key: sectionElement.key,
+                                    }
+                                ),
+                            ];
+                        }
+                    }),
+                ];
             }
         });
     };

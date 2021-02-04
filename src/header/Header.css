@@ -46,3 +46,12 @@ display: none;
   display: block;
   font-size: 1.1em;
 }
+
+.languages > ul {
+  list-style-type: none;
+}
+
+.languages > ul > li {
+  display: inline;
+  margin-right: 10px;
+}

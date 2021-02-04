@@ -22,25 +22,31 @@ class App extends React.Component {
             style: null,
             selectedPage: [],
             content: {},
+            profileContentFile: 'cv-profile/content.json'
         };
 
         this._styleChanged$ = new Subject(null);
     }
 
-    componentDidMount() {
-        fetch('cv-profile/content.json')
-            .then((r) => r.json())
-            .then((data) => {
-                this.navBarOptions = Object.keys(data.sections).map((section) => ({
-                    key: section,
-                    tabName: data.sections[section].tabName,
-                }));
+    fetchProfileJSON = () => {
+        fetch(this.state.profileContentFile)
+        .then((r) => r.json())
+        .then((data) => {
+            this.navBarOptions = Object.keys(data.sections).map((section) => ({
+                key: section,
+                tabName: data.sections[section].tabName,
+            }));
 
-                this.setState({
-                    content: data,
-                    selectedPage: [data.sections[Object.keys(data.sections)[0]]],
-                });
+            this.setState({
+                content: data,
+                selectedPage: [data.sections[Object.keys(data.sections)[0]]],
             });
+            this.forceUpdate();
+        });
+    }
+
+    componentDidMount() {
+        this.fetchProfileJSON();
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -83,13 +89,24 @@ class App extends React.Component {
       });
   };
 
+  changeProfileFile = (languagePrefix) => {
+    
+    this.setState({
+        selectedPage: [],
+        content: {},
+        profileContentFile: `cv-profile/${languagePrefix.toLowerCase()}.content.json`
+    }, () => {
+        this.fetchProfileJSON();
+    });
+  }
+
     render() {
         return (
             <div
                 style={this.state.style ? this.downloadableStyle : null}
                 className={'App'}
                 id='cvapp'>
-                <Header didStyleChanged={this.state.style} />
+                <Header didStyleChanged={this.state.style} changeFileRoute={this.changeProfileFile} content={this.state.content} downloadableStyle={this.state.style}/>
                 <NavBar
                     tabs={this.navBarOptions}
                     selectTab={this.changeSelectedTab}
@@ -103,6 +120,7 @@ class App extends React.Component {
                 <DownloadAsCvButton
                     onClick={this.renderAllTabs}
                     changeDocumentStyle={this.loadDownloadableStyle}
+                    downloadableStyle={this.state.style}
                 />
             </div>
         );
