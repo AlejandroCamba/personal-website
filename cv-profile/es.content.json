@@ -1,0 +1,251 @@
+{
+  "name": "Alejandro Camba",
+  "title": "Frontend Engineer",
+  "email": "alejandroantoniocamb@gmail.com",
+  "phone": "xxx-xxxx",
+  "address": "",
+  "civilStatus": "Married",
+  "dateOfBirth": "14/10/1994",
+  "sections": {
+
+      "about-me": {
+          "tabName": "About Me",
+          "allowInCv": true,
+          "structure": [
+              {
+                  "contentName": "text",
+                  "content": "Frontend Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
+              },
+              {
+                  "contentName": "text",
+                  "content": "I learn fast and I know my way around any kind of documentations, recently pulling off an image recognition project with C++, CMake, OpenCV and Tesseract and connecting that C++ module to javascript using WebAssembly."
+              }
+          ]
+      },
+      "experience": {
+          "tabName": "Experience",
+          "allowInCv": true,
+          "structure": [
+              {
+                  "contentName": "list",
+                  "content": [
+                      {
+                          "title": "Founder at gameitemprices.com",
+                          "link": "https://www.eso.gameitemprices.com",
+                          "body": "Worked with angular universal (ssr), service workers, PWA, API REST, Nest.js, PostgreSQL, Redis, C++, WASM, OpenCV, Tesseract and managed all product related process: Plannig, Design, Development, Deployment and Mantainance.",
+                          "place": "Caracas, Venezuela",
+                          "fromDate": "Aug 2020",
+                          "toDate": "Present"
+                      },
+                      {
+                          "title": "Senior FullStack Developer",
+                          "body": "Take bigger projects, Database Design, Frontend Architecture, Code Reviewing, Repository Maitainance, Documentation, Training junior developers and interns.",
+                          "place": "Andromeda Ventures  -  Caracas, Venezuela",
+                          "fromDate": "Jan 2019",
+                          "toDate": "Aug 2020"
+                      },
+                      {
+                          "title": "FullStack Developer",
+                          "body": "Desing and Develop Angular SPA Applications and Backends using Nest.js and PostgreSQL",
+                          "place": "Andromeda Ventures  -  Caracas, Venezuela",
+                          "fromDate": "Jan 2019",
+                          "toDate": "Aug 2020"
+                      },
+                      {
+                          "title": "Remote Frontend Developer",
+                          "body": "Develop and mantain Angular SPA Applications, game development using PIXI.js",
+                          "place": "DOJO Madness  -  Berlin, Germany",
+                          "fromDate": "Sep 2017",
+                          "toDate": "Apr 2018"
+                      },
+                      {
+                          "title": "Frontend Developer Intern",
+                          "body": "Angular SPA development",
+                          "place": "DOJO Madness  -  Berlin, Germany",
+                          "fromDate": "Jul 2017",
+                          "toDate": "Aug 2017"
+                      }
+                  ]
+              }
+          ]
+      },
+      "profile": {
+          "allowInCv": true,
+          "tabName": "Profile",
+          "structure": [
+              {
+                  "tabName": "Languages",
+
+                  "contentName": "menu",
+                  "content": {
+                      "tabs": ["Skills", "Languages", "Education"]
+                  },
+                  "structure": [
+                      {
+                          "contentName": "skills",
+                          "key": "Skills",
+                          "tabName": "Skills",
+                          "content": [
+                              {
+                                  "title": "HTML/CSS/JavaScript",
+                                  "percentage": 80,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "TypeScript",
+                                  "percentage": 80,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "Angular (RxJs, Universal, PWA)",
+                                  "percentage": 90,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "React.js",
+                                  "percentage": 50,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "Leadership",
+                                  "percentage": 80,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "New Challenges",
+                                  "percentage": 100,
+                                  "description": ""
+                              },
+                              {
+                                  "title": "Getting Things Done",
+                                  "percentage": 100,
+                                  "description": ""
+                              }
+                          ]
+                      },
+                      {
+                          "contentName": "list",
+                          "key": "Education",
+                          "tabName": "Education",
+                          "content": [
+                              {
+                                  "title": "Informatics Engineering",
+                                  "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
+                                  "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
+                                  "fromDate": "Jan 2014",
+                                  "toDate": "Jan 2019"
+                              },
+                              {
+                                  "title": "Intensive German Language Course Abroad",
+                                  "body": "",
+                                  "place": "EF Education First. Munich, Germany",
+                                  "fromDate": "Jan 2013",
+                                  "toDate": "Nov 2013"
+                              }
+                          ]
+                      },
+                      {
+                          "contentName": "list",
+                          "key": "Languages",
+                          "tabName": "Languages",
+                          "content": [
+                              {
+                                  "title": "Spanish",
+                                  "body": "",
+                                  "place": "",
+                                  "fromDate": "",
+                                  "toDate": "Native"
+                              },
+                              {
+                                  "title": "English",
+                                  "body": "",
+                                  "place": "",
+                                  "fromDate": "",
+                                  "toDate": "Work Proficient"
+                              },
+                              {
+                                  "title": "German",
+                                  "body": "",
+                                  "place": "",
+                                  "fromDate": "",
+                                  "toDate": "Almost Work Proficient"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      "status": {
+          "tabName": "Status",
+          "allowInCv": false,
+          "structure": [
+              {
+                  "contentName": "list",
+                  "key": "",
+                  "content": [
+                      {
+                          "title": "Waiting for german borders to reopen",
+                          "body": "I'm planning to apply to a job seeker visa and travel to germany to find a full time job",
+                          "place": "",
+                          "fromDate": "",
+                          "toDate": "Ongoing"
+                      },
+                      {
+                          "title": "Mantaining gameitemprices.com",
+                          "body": "I'm working to get more traffic for the website and better google ranking",
+                          "place": "",
+                          "fromDate": "",
+                          "toDate": "Ongoing"
+                      },
+                      {
+                          "title": "Maitaining open source projects",
+                          "body": "It's hard to work on my open source projects because of time issues, there are some cool things but they need a good amount of time investment",
+                          "place": "",
+                          "fromDate": "",
+                          "toDate": "Rarely"
+                      }
+                  ]
+              }
+          ]
+      },
+      "contact": {
+          "tabName": "Contact",
+          "allowInCv": false,
+          "structure": [
+              {
+                  "contentName": "contactForm"
+              }
+          ]
+      },
+      "open-source": {
+          "tabName": "Open Source",
+          "allowInCv": false,
+          "structure": [
+              {
+                  "contentName": "projects",
+                  "content": [
+                      {
+                          "name": "Ngx Admin Panel Generator",
+                          "description": "Angular based framework that eases admin panel development with a configurable approach.",
+                          "stars": 1,
+                          "link": "https://alejandrocamba.github.io/ngx-admin-panel/"
+                      },
+                      {
+                          "name": "Personal website that turns into CV(PDF)",
+                          "description": "Provide your profile information in json format, install dependecies, build, run and voilá, a personal website that anyone could download as your CV",
+                          "stars": 1,
+                          "link": "https://github.com/AlejandroCamba/personal-website"
+                      },
+                      {
+                          "name": "Nest.js Basic Authentication",
+                          "description": "A nest.js starter template with authentication",
+                          "stars": 3,
+                          "link": "https://github.com/AlejandroCamba/nestjs-basic-authentication"
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}
