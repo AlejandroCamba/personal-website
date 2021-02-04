@@ -10,6 +10,9 @@ export class NavBar extends Component {
         border: '3px solid black',
         backgroundColor: 'black',
         marginRight: '25px'
+      },
+      menu: {
+        display: 'none'
       }
     };
     selectedTab = 0;
@@ -41,7 +44,7 @@ export class NavBar extends Component {
     render() {
         return (
             <div>
-                <div className="menu-icon-container"  onClick={() => this.onMenuClick(this.state)}></div><div className="menu-icon"></div>
+                <div className="menu-icon-container"   onClick={() => this.onMenuClick(this.state)}></div><div className="menu-icon" style={this.props.downloadableStyle ? this.downloadableStyle.menu : null }></div>
                 <div className={ this.state.navStyle.class } style={this.props.downloadableStyle ? this.downloadableStyle.nav : null }>
                     <ul id='profile-nav'>
                         {this.props.tabs.map((tab, i) => (

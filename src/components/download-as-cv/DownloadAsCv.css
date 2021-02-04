@@ -4,4 +4,10 @@
   position: fixed;
   right: 20px;
   bottom: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }

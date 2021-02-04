@@ -54,4 +54,12 @@ display: none;
 .languages > ul > li {
   display: inline;
   margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 145px;
 }

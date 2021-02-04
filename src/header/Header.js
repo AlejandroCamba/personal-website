@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
+import profile from './CV-profile.png'
 
 export class Header extends Component {
     downloadableStyle = {
@@ -33,6 +34,7 @@ export class Header extends Component {
                       <label className="contact-content"><b>Date of Birth:</b> 14/10/1994 (dd/mm/yyyy)</label>
                       <label className="contact-content"><b>Civil Status:</b> Single</label>
                     </div>
+                    <img src={profile} className="profile-pic" style={!this.props.downloadableStyle ? {display: 'none'} : {display: 'block'} }></img>
                     <div className="languages" style={this.props.downloadableStyle ? {display: 'none'} : {display: 'block'} }>
                         <ul>
                             <li onClick={() => this.props.changeFileRoute('ES')}>ES</li>

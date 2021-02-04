@@ -1,175 +1,250 @@
 {
-  "name": "Alejandro Camba",
-  "title": "Frontend Engineer",
-  "email": "alejandroantoniocamb@gmail.com",
-  "phone": "xxx-xxxx",
-  "address": "",
-  "civilStatus": "Married",
-  "dateOfBirth": "14/10/1994",
-  "sections": {
-    "profile": {
-      "allowInCv": true,
-      "tabName": "Profile",
-      "structure": [
-          {
-              "contentName": "menu",
-              "content": {
-                "tabs": ["Kompetenzen", "Sprachen", "Bildung"]
-              },
-              "structure": [
-                  {
-                      "contentName": "list",
-                      "key": "Kompetenzen",
-                      "content": [
-                          {
-                              "title": "HTML",
-                              "body": "",
-                              "place": "",
-                              "fromDate": "",
-                              "toDate": ""
-                          },
-                          {
-                              "title": "CSS",
-                              "body": "",
-                              "place": "",
-                              "fromDate": "",
-                              "toDate": ""
-                          },
-                          {
-                              "title": "JavaScript",
-                              "body": "",
-                              "place": "",
-                              "fromDate": "",
-                              "toDate": ""
-                          }
-                      ]
-                  },
-                  {
-                      "contentName": "list",
-                      "key": "Bildung",
-                      "content": [
-                          {
-                              "title": "Informatics Engineering",
-                              "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
-                              "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
-                              "fromDate": "Jan 2014",
-                              "toDate": "Jan 2019"
-                          },
-                          {
-                              "title": "Intensive German Language Course Abroad",
-                              "body": "",
-                              "place": "EF Education First. Munich, Germany",
-                              "fromDate": "Jan 2013",
-                              "toDate": "Nov 2013"
-                          }
-                      ]
-                  },
-                  {
-                      "contentName": "list",
-                      "key": "Sprachen",
-                      "content": [
-                          {
-                              "title": "Spanish",
-                              "body": "",
-                              "place": "",
-                              "fromDate": "",
-                              "toDate": "Native"
-                          },
-                          {
-                              "title": "English",
-                              "body": "",
-                              "place": "TOEFL - 109",
-                              "fromDate": "",
-                              "toDate": "Work Proficient"
-                          },
-                          {
-                              "title": "German",
-                              "body": "",
-                              "place": "Goethe Zertifikat B2",
-                              "fromDate": "",
-                              "toDate": "Work Proficient"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ]
-  },
-      "status": {
-          "tabName": "Status",
-          "allowInCv": false,
-          "structure": []
-      },
-      "contactt": {
-          "tabName": "Contact",
-          "allowInCv": false,
-          "structure": [
-              {
-                  "contentName": "contactForm"
-              }
-          ]
-      },
-      "open-source": {
-          "tabName": "Open Source",
-          "allowInCv": false,
-          "structure": []
-      },
-      "about-me": {
-          "tabName": "About Me",
-          "allowInCv": true,
-          "structure": [
-              {
-                  "contentName": "text",
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt eros neque, a viverra metus vulputate at. Sed hendrerit metus sit amet nunc fermentum euismod. Duis elementum turpis augue, quis vestibulum ipsum fermentum quis. Vivamus hendrerit in metus vel sagittis. Vivamus id turpis feugiat, tincidunt sapien nec, maximus leo. Proin finibus nisl vel metus gravida, et elementum libero sollicitudin. Sed eu velit posuere, commodo ante vitae, rutrum risus. Aliquam quis mollis enim. Fusce rhoncus dignissim metus, in tincidunt libero suscipit a. Aenean porta suscipit diam non consectetur. Fusce sit amet lorem enim. Quisque nec iaculis ligula, ut tempus tellus. Phasellus id pharetra quam, vitae consequat dolor. Praesent accumsan a nunc quis malesuada."
-              },
-              {
-                  "contentName": "text",
-                  "content": "Quisque at risus in nibh congue pretium. Praesent mollis ante ac leo mattis, nec tempor erat dignissim. Nam quis nulla quis risus blandit efficitur. Donec pretium fringilla scelerisque. Praesent sed mattis ligula, at iaculis dolor. Nam venenatis auctor lacus, at cursus felis gravida eget. Curabitur molestie mauris ac augue blandit imperdiet. Duis eu viverra enim. Curabitur ut aliquam risus. Donec eu pulvinar dolor. Mauris vitae nisl vel risus tempus lacinia. Proin ut felis leo. Etiam volutpat velit sed consectetur interdum. Duis nec quam quis ante mollis interdum quis eget mi. Quisque placerat dignissim pretium. Nam vel neque quam."
-              },
-              {
-                  "contentName": "text",
-                  "content": "Ut porta, purus ac convallis ultrices, felis odio tempor risus, ut hendrerit urna sem sed leo. Vivamus euismod, mauris vel mattis sagittis, eros mi ornare erat, accumsan congue turpis neque ac mauris. In a tincidunt risus, in viverra justo. Praesent vitae commodo lacus. Quisque at ornare sem. Sed vel gravida sem, eget bibendum ligula. Fusce pretium pellentesque nunc. Quisque sagittis aliquet nunc sed malesuada. Ut efficitur pharetra lacus. Donec aliquet nisl maximus malesuada tempus. Sed consequat lacus eu fringilla dapibus. Sed mollis faucibus nisl at mollis. Nunc id mi quis ante gravida convallis."
-              }
-          ]
-      },
-      "experience": {
-          "tabName": "Experience",
-          "allowInCv": true,
-          "structure": [
-              {
-                  "contentName": "list",
-                  "content": [
-                      {
-                          "title": "Founder att GameItemPrices.com",
-                          "body": "Lorem Ipsum",
-                          "place": "Caracas",
-                          "fromDate": "Aug 2020",
-                          "toDate": "Present"
-                      },
-                      {
-                          "title": "Frontend Developer",
-                          "body": "Lorem Ipsum",
-                          "place": "Andromeda Ventures  -  Caracas, Venezuela",
-                          "fromDate": "Jan 2019",
-                          "toDate": "Aug 2020"
-                      },
-                      {
-                          "title": "Remote Frontend Developer",
-                          "body": "Lorem Ipsum",
-                          "place": "DOJO Madness  -  Berlin, Germany",
-                          "fromDate": "Sep 2017",
-                          "toDate": "Apr 2018"
-                      },
-                      {
-                          "title": "Frontend Developer Intern",
-                          "body": "Lorem Ipsum",
-                          "place": "DOJO Madness  -  Berlin, Germany",
-                          "fromDate": "Jul 2017",
-                          "toDate": "Aug 2017"
-                      }
-                  ]
-              }
-          ]
-      }
-  }
+    "name": "Alejandro Camba",
+    "title": "Software Ingenieur",
+    "email": "alejandroantoniocamb@gmail.com",
+    "phone": "xxx-xxxx",
+    "address": "",
+    "civilStatus": "Ledig",
+    "dateOfBirth": "14/10/1994",
+    "sections": {
+        "about-me": {
+            "tabName": "Über Mich",
+            "allowInCv": true,
+            "structure": [
+                {
+                    "contentName": "text",
+                    "content": "3+ Jahre Erfahrung Software-Ingenieur mit einer Leidenschaft für Web-Entwicklung, ich mag es, neue Herausforderungen mit Software Best Practices und Prinzipien, um das bestmögliche Ergebnis zu gewährleisten. Ich verfüge über tiefgreifende Kenntnisse des gesamten Software-Entwicklungszyklus, was mich zu einer großen Bereicherung macht. Ich bin in der Lage, die Lücke zwischen den Backend-, Frontend- und Design-Abteilungen zu überbrücken und so die Erfolgschancen des Produkts zu erhöhen, denn wir können nicht zulassen, dass großartige Ideen wegen schlechter Software verpuffen!"
+                },
+                {
+                    "contentName": "text",
+                    "content": "Ich lerne schnell und kenne mich mit jeder Art von Dokumentationen aus. Kürzlich habe ich ein Bilderkennungs-Projekt mit C++, CMake, OpenCV und Tesseract durchgeführt und dieses C++-Modul mit Hilfe von WebAssembly mit Javascript verbunden."
+                }
+            ]
+        },
+        "experience": {
+            "tabName": "Erfahrung",
+            "allowInCv": true,
+            "structure": [
+                {
+                    "contentName": "list",
+                    "content": [
+                        {
+                            "title": "Gründer auf gameitemprices.com",
+                            "link": "https://www.eso.gameitemprices.com",
+                            "body": "Arbeitete mit Angular Universal (ssr), Service Worker, PWA, API REST, Nest.js, PostgreSQL, Redis, C++, WASM, OpenCV, Tesseract und verwaltete alle produktbezogenen Prozesse: Planung, Design, Entwicklung, Deployment und Mantainance.",
+                            "place": "Caracas, Venezuela",
+                            "fromDate": "Aug 2020",
+                            "toDate": "Present"
+                        },
+                        {
+                            "title": "Senior FullStack Entwickler",
+                            "body": "Übernahme größerer Projekte, Datenbankdesign, Frontend-Architektur, Code-Reviewing, Repository-Pflege, Dokumentation, Schulung von Junior-Entwicklern und Praktikanten.",
+                            "place": "Andromeda Ventures  -  Caracas, Venezuela",
+                            "fromDate": "Jan 2019",
+                            "toDate": "Aug 2020"
+                        },
+                        {
+                            "title": "FullStack Entwickler",
+                            "body": "Entwurf und Entwicklung von Angular SPA-Anwendungen und Backends mit Nest.js und PostgreSQL",
+                            "place": "Andromeda Ventures  -  Caracas, Venezuela",
+                            "fromDate": "Jan 2019",
+                            "toDate": "Aug 2020"
+                        },
+                        {
+                            "title": "Remote Frontend Entwickler",
+                            "body": "Entwicklung und Pflege von Angular SPA-Anwendungen, Spieleentwicklung mit PIXI.js",
+                            "place": "DOJO Madness  -  Berlin, Germany",
+                            "fromDate": "Sep 2017",
+                            "toDate": "Apr 2018"
+                        },
+                        {
+                            "title": "Frontend Entwickler Praktikant",
+                            "body": "Angular SPA-Entwicklung",
+                            "place": "DOJO Madness  -  Berlin, Germany",
+                            "fromDate": "Jul 2017",
+                            "toDate": "Aug 2017"
+                        }
+                    ]
+                }
+            ]
+        },
+        "profile": {
+            "allowInCv": true,
+            "tabName": "Profil",
+            "structure": [
+                {
+                    "tabName": "Sprachen",
+
+                    "contentName": "menu",
+                    "content": {
+                        "tabs": ["Kompetenzen", "Sprachen", "Ausbildung"]
+                    },
+                    "structure": [
+                        {
+                            "contentName": "skills",
+                            "key": "Kompetenzen",
+                            "tabName": "Kompetenzen",
+                            "content": [
+                                {
+                                    "title": "HTML/CSS/JavaScript",
+                                    "percentage": 80,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "TypeScript",
+                                    "percentage": 80,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "Angular (RxJs, Universal, PWA)",
+                                    "percentage": 90,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "React.js",
+                                    "percentage": 50,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "Leadership",
+                                    "percentage": 80,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "New Challenges",
+                                    "percentage": 100,
+                                    "description": ""
+                                },
+                                {
+                                    "title": "Getting Things Done",
+                                    "percentage": 100,
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "contentName": "list",
+                            "key": "Ausbildung",
+                            "tabName": "Ausbildung",
+                            "content": [
+                                {
+                                    "title": "Informatics Engineering",
+                                    "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
+                                    "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
+                                    "fromDate": "Jan 2014",
+                                    "toDate": "Jan 2019"
+                                },
+                                {
+                                    "title": "Intensive German Language Course Abroad",
+                                    "body": "",
+                                    "place": "EF Education First. Munich, Germany",
+                                    "fromDate": "Jan 2013",
+                                    "toDate": "Nov 2013"
+                                }
+                            ]
+                        },
+                        {
+                            "contentName": "list",
+                            "key": "Sprachen",
+                            "tabName": "Sprachen",
+                            "content": [
+                                {
+                                    "title": "Spanisch",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": "Muttersprache"
+                                },
+                                {
+                                    "title": "Englisch",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": "Fließend"
+                                },
+                                {
+                                    "title": "Deutsch",
+                                    "body": "",
+                                    "place": "",
+                                    "fromDate": "",
+                                    "toDate": "B2 (Einige Themen sind noch schwierig)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "status": {
+            "tabName": "Status",
+            "allowInCv": false,
+            "structure": [
+                {
+                    "contentName": "list",
+                    "key": "",
+                    "content": [
+                        {
+                            "title": "Warten auf die Wiederöffnung der deutschen Grenzen",
+                            "body": "Ich plane, ein Visum für Arbeitssuchende zu beantragen und nach Deutschland zu reisen, um eine Vollzeitstelle zu finden",
+                            "place": "",
+                            "fromDate": "",
+                            "toDate": "Laufend"
+                        },
+                        {
+                            "title": "Mantaining gameitemprices.com",
+                            "body": "Ich arbeite daran, mehr Traffic für die Website und ein besseres Google-Ranking zu bekommen",
+                            "place": "",
+                            "fromDate": "",
+                            "toDate": "Laufend"
+                        },
+                        {
+                            "title": "Maitaining von Open-Source-Projekten",
+                            "body": "Es ist schwer, an meinen Open-Source-Projekten zu arbeiten, weil es zeitliche Probleme gibt. Es gibt einige coole Dinge, aber sie brauchen eine gute Menge an Zeitinvestition",
+                            "place": "",
+                            "fromDate": "",
+                            "toDate": "Selten"
+                        }
+                    ]
+                }
+            ]
+        },
+        "contact": {
+            "tabName": "Kontakt",
+            "allowInCv": false,
+            "structure": [
+                {
+                    "contentName": "contactForm"
+                }
+            ]
+        },
+        "open-source": {
+            "tabName": "Open Source",
+            "allowInCv": false,
+            "structure": [
+                {
+                    "contentName": "projects",
+                    "content": [
+                        {
+                            "name": "Ngx Admin Panel Generator",
+                            "description": "Angular based framework that eases admin panel development with a configurable approach.",
+                            "stars": 1,
+                            "link": "https://alejandrocamba.github.io/ngx-admin-panel/"
+                        },
+                        {
+                            "name": "Personal website that turns into CV(PDF)",
+                            "description": "Provide your profile information in json format, install dependecies, build, run and voilá, a personal website that anyone could download as your CV",
+                            "stars": 1,
+                            "link": "https://github.com/AlejandroCamba/personal-website"
+                        },
+                        {
+                            "name": "Nest.js Basic Authentication",
+                            "description": "A nest.js starter template with authentication",
+                            "stars": 3,
+                            "link": "https://github.com/AlejandroCamba/nestjs-basic-authentication"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }

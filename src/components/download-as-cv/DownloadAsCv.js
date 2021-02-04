@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { jsPDF } from 'jspdf';
-import html2canvas from 'html2canvas';
 import './DownloadAsCv.css';
 import { first } from 'rxjs/operators';
 
@@ -29,7 +27,7 @@ export class DownloadAsCvButton extends Component {
         return (
             <div>
                 <button className='download-as-cv' onClick={this.downloadPdf} style={this.props.downloadableStyle ? {display: 'none'} : {display: 'block'}}>
-                    Download website as CV
+                    Download CV version
                 </button>
             </div>
         );

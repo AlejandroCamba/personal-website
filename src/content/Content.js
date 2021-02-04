@@ -77,7 +77,7 @@ export class Content extends Component {
                                 : null
                         }
                     >
-                        { section.tabName !== 'Profile' ? section.tabName : '' }
+                        { section.tabName !== 'Profile' && section.tabName !== 'Profil' && section.tabName !== 'Perfil' ? section.tabName : '' }
                     </h1>,
                     section.structure.map((sectionElement) => {
                         if (sectionElement.structure) {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/project.css';
+import githubLogo from './github.png'
 
 export class PortfolioProjectRenderer extends Component {
     downloadableStyle = {
@@ -51,8 +52,9 @@ export class PortfolioProjectRenderer extends Component {
                                 this.removeDescription(i);
                                 this.forceUpdate();
                             }}
+                            onClick={() => window.location.href=element.link}
                         >
-                            <img className="githubLogo" src="/github.png"></img>
+                            <img className="githubLogo" src={githubLogo}></img>
                             <p
                                 className={
                                     this.state.showDescription[i] === false

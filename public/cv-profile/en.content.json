@@ -1,6 +1,6 @@
 {
     "name": "Alejandro Camba",
-    "title": "Frontend Engineer",
+    "title": "Software Engineer",
     "email": "alejandroantoniocamb@gmail.com",
     "phone": "xxx-xxxx",
     "address": "",
@@ -14,11 +14,11 @@
             "structure": [
                 {
                     "contentName": "text",
-                    "content": "Frontend Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
+                    "content": "3+ Years Experience Software Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
                 },
                 {
                     "contentName": "text",
-                    "content": "I learn fast and I know my way around any kind of documentations, recently pulling off an image recognition with C++ and CMake, OpenCV and Tesseract project and connecting that C++ module to javascript using WebAssembly."
+                    "content": "I learn fast and I know my way around any kind of documentations, recently pulling off an image recognition project with C++, CMake, OpenCV and Tesseract and connecting that C++ module to javascript using WebAssembly."
                 }
             ]
         },
@@ -30,14 +30,8 @@
                     "contentName": "list",
                     "content": [
                         {
-                            "title": "Freelance Senior Frontend Developer",
-                            "body": "Develop Angular SPA, migrate simple html templates, project updates to angular universal or PWA, fix web performance problems.",
-                            "place": "",
-                            "fromDate": "Jan 2021",
-                            "toDate": "Present"
-                        },
-                        {
                             "title": "Founder at gameitemprices.com",
+                            "link": "https://www.eso.gameitemprices.com",
                             "body": "Worked with angular universal (ssr), service workers, PWA, API REST, Nest.js, PostgreSQL, Redis, C++, WASM, OpenCV, Tesseract and managed all product related process: Plannig, Design, Development, Deployment and Mantainance.",
                             "place": "Caracas, Venezuela",
                             "fromDate": "Aug 2020",
@@ -45,7 +39,7 @@
                         },
                         {
                             "title": "Senior FullStack Developer",
-                            "body": "Take bigger projects while training junior developers and interns.",
+                            "body": "Take bigger projects, Database Design, Frontend Architecture, Code Reviewing, Repository Maintainance, Documentation, Training junior developers and interns.",
                             "place": "Andromeda Ventures  -  Caracas, Venezuela",
                             "fromDate": "Jan 2019",
                             "toDate": "Aug 2020"
@@ -59,7 +53,7 @@
                         },
                         {
                             "title": "Remote Frontend Developer",
-                            "body": "Develop and mantain Angular SPA Applications, games development using PIXI.js",
+                            "body": "Develop and maintain Angular SPA Applications, game development using PIXI.js",
                             "place": "DOJO Madness  -  Berlin, Germany",
                             "fromDate": "Sep 2017",
                             "toDate": "Apr 2018"
@@ -174,7 +168,7 @@
                                     "body": "",
                                     "place": "",
                                     "fromDate": "",
-                                    "toDate": "Almost Work Proficient"
+                                    "toDate": "Intermediate"
                                 }
                             ]
                         }
@@ -234,17 +228,20 @@
                         {
                             "name": "Ngx Admin Panel Generator",
                             "description": "Angular based framework that eases admin panel development with a configurable approach.",
-                            "stars": 1
+                            "stars": 1,
+                            "link": "https://alejandrocamba.github.io/ngx-admin-panel/"
                         },
                         {
                             "name": "Personal website that turns into CV(PDF)",
                             "description": "Provide your profile information in json format, install dependecies, build, run and voilá, a personal website that anyone could download as your CV",
-                            "stars": 1
+                            "stars": 1,
+                            "link": "https://github.com/AlejandroCamba/personal-website"
                         },
                         {
                             "name": "Nest.js Basic Authentication",
                             "description": "A nest.js starter template with authentication",
-                            "stars": 3
+                            "stars": 3,
+                            "link": "https://github.com/AlejandroCamba/nestjs-basic-authentication"
                         }
                     ]
                 }
