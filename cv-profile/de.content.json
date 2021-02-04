@@ -1,10 +1,10 @@
 {
     "name": "Alejandro Camba",
-    "title": "Frontend Engineer",
+    "title": "Software Ingenieur",
     "email": "alejandroantoniocamb@gmail.com",
     "phone": "xxx-xxxx",
     "address": "",
-    "civilStatus": "Married",
+    "civilStatus": "Ledig",
     "dateOfBirth": "14/10/1994",
     "sections": {
         "about-me": {
@@ -13,11 +13,11 @@
             "structure": [
                 {
                     "contentName": "text",
-                    "content": "Frontend Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
+                    "content": "3+ Jahre Erfahrung Software-Ingenieur mit einer Leidenschaft für Web-Entwicklung, ich mag es, neue Herausforderungen mit Software Best Practices und Prinzipien, um das bestmögliche Ergebnis zu gewährleisten. Ich verfüge über tiefgreifende Kenntnisse des gesamten Software-Entwicklungszyklus, was mich zu einer großen Bereicherung macht. Ich bin in der Lage, die Lücke zwischen den Backend-, Frontend- und Design-Abteilungen zu überbrücken und so die Erfolgschancen des Produkts zu erhöhen, denn wir können nicht zulassen, dass großartige Ideen wegen schlechter Software verpuffen!"
                 },
                 {
                     "contentName": "text",
-                    "content": "I learn fast and I know my way around any kind of documentations, recently pulling off an image recognition project with C++, CMake, OpenCV and Tesseract and connecting that C++ module to javascript using WebAssembly."
+                    "content": "Ich lerne schnell und kenne mich mit jeder Art von Dokumentationen aus. Kürzlich habe ich ein Bilderkennungs-Projekt mit C++, CMake, OpenCV und Tesseract durchgeführt und dieses C++-Modul mit Hilfe von WebAssembly mit Javascript verbunden."
                 }
             ]
         },
@@ -29,37 +29,37 @@
                     "contentName": "list",
                     "content": [
                         {
-                            "title": "Founder at gameitemprices.com",
+                            "title": "Gründer auf gameitemprices.com",
                             "link": "https://www.eso.gameitemprices.com",
-                            "body": "Worked with angular universal (ssr), service workers, PWA, API REST, Nest.js, PostgreSQL, Redis, C++, WASM, OpenCV, Tesseract and managed all product related process: Plannig, Design, Development, Deployment and Mantainance.",
+                            "body": "Arbeitete mit Angular Universal (ssr), Service Worker, PWA, API REST, Nest.js, PostgreSQL, Redis, C++, WASM, OpenCV, Tesseract und verwaltete alle produktbezogenen Prozesse: Planung, Design, Entwicklung, Deployment und Mantainance.",
                             "place": "Caracas, Venezuela",
                             "fromDate": "Aug 2020",
                             "toDate": "Present"
                         },
                         {
-                            "title": "Senior FullStack Developer",
-                            "body": "Take bigger projects, Database Design, Frontend Architecture, Code Reviewing, Repository Maitainance, Documentation, Training junior developers and interns.",
+                            "title": "Senior FullStack Entwickler",
+                            "body": "Übernahme größerer Projekte, Datenbankdesign, Frontend-Architektur, Code-Reviewing, Repository-Pflege, Dokumentation, Schulung von Junior-Entwicklern und Praktikanten.",
                             "place": "Andromeda Ventures  -  Caracas, Venezuela",
                             "fromDate": "Jan 2019",
                             "toDate": "Aug 2020"
                         },
                         {
-                            "title": "FullStack Developer",
-                            "body": "Desing and Develop Angular SPA Applications and Backends using Nest.js and PostgreSQL",
+                            "title": "FullStack Entwickler",
+                            "body": "Entwurf und Entwicklung von Angular SPA-Anwendungen und Backends mit Nest.js und PostgreSQL",
                             "place": "Andromeda Ventures  -  Caracas, Venezuela",
                             "fromDate": "Jan 2019",
                             "toDate": "Aug 2020"
                         },
                         {
-                            "title": "Remote Frontend Developer",
-                            "body": "Develop and mantain Angular SPA Applications, game development using PIXI.js",
+                            "title": "Remote Frontend Entwickler",
+                            "body": "Entwicklung und Pflege von Angular SPA-Anwendungen, Spieleentwicklung mit PIXI.js",
                             "place": "DOJO Madness  -  Berlin, Germany",
                             "fromDate": "Sep 2017",
                             "toDate": "Apr 2018"
                         },
                         {
-                            "title": "Frontend Developer Intern",
-                            "body": "Angular SPA development",
+                            "title": "Frontend Entwickler Praktikant",
+                            "body": "Angular SPA-Entwicklung",
                             "place": "DOJO Madness  -  Berlin, Germany",
                             "fromDate": "Jul 2017",
                             "toDate": "Aug 2017"
@@ -73,17 +73,17 @@
             "tabName": "Profil",
             "structure": [
                 {
-                    "tabName": "Languages",
+                    "tabName": "Sprachen",
 
                     "contentName": "menu",
                     "content": {
-                        "tabs": ["Skills", "Languages", "Education"]
+                        "tabs": ["Kompetenzen", "Sprachen", "Ausbildung"]
                     },
                     "structure": [
                         {
                             "contentName": "skills",
-                            "key": "Skills",
-                            "tabName": "Skills",
+                            "key": "Kompetenzen",
+                            "tabName": "Kompetenzen",
                             "content": [
                                 {
                                     "title": "HTML/CSS/JavaScript",
@@ -124,8 +124,8 @@
                         },
                         {
                             "contentName": "list",
-                            "key": "Education",
-                            "tabName": "Education",
+                            "key": "Ausbildung",
+                            "tabName": "Ausbildung",
                             "content": [
                                 {
                                     "title": "Informatics Engineering",
@@ -145,29 +145,29 @@
                         },
                         {
                             "contentName": "list",
-                            "key": "Languages",
-                            "tabName": "Languages",
+                            "key": "Sprachen",
+                            "tabName": "Sprachen",
                             "content": [
                                 {
-                                    "title": "Spanish",
+                                    "title": "Spanisch",
                                     "body": "",
                                     "place": "",
                                     "fromDate": "",
-                                    "toDate": "Native"
+                                    "toDate": "Muttersprache"
                                 },
                                 {
-                                    "title": "English",
+                                    "title": "Englisch",
                                     "body": "",
                                     "place": "",
                                     "fromDate": "",
-                                    "toDate": "Work Proficient"
+                                    "toDate": "Fließend"
                                 },
                                 {
-                                    "title": "German",
+                                    "title": "Deutsch",
                                     "body": "",
                                     "place": "",
                                     "fromDate": "",
-                                    "toDate": "Almost Work Proficient"
+                                    "toDate": "B2 (Einige Themen sind noch schwierig)"
                                 }
                             ]
                         }
@@ -184,25 +184,25 @@
                     "key": "",
                     "content": [
                         {
-                            "title": "Waiting for german borders to reopen",
-                            "body": "I'm planning to apply to a job seeker visa and travel to germany to find a full time job",
+                            "title": "Warten auf die Wiederöffnung der deutschen Grenzen",
+                            "body": "Ich plane, ein Visum für Arbeitssuchende zu beantragen und nach Deutschland zu reisen, um eine Vollzeitstelle zu finden",
                             "place": "",
                             "fromDate": "",
-                            "toDate": "Ongoing"
+                            "toDate": "Laufend"
                         },
                         {
                             "title": "Mantaining gameitemprices.com",
-                            "body": "I'm working to get more traffic for the website and better google ranking",
+                            "body": "Ich arbeite daran, mehr Traffic für die Website und ein besseres Google-Ranking zu bekommen",
                             "place": "",
                             "fromDate": "",
-                            "toDate": "Ongoing"
+                            "toDate": "Laufend"
                         },
                         {
-                            "title": "Maitaining open source projects",
-                            "body": "It's hard to work on my open source projects because of time issues, there are some cool things but they need a good amount of time investment",
+                            "title": "Maitaining von Open-Source-Projekten",
+                            "body": "Es ist schwer, an meinen Open-Source-Projekten zu arbeiten, weil es zeitliche Probleme gibt. Es gibt einige coole Dinge, aber sie brauchen eine gute Menge an Zeitinvestition",
                             "place": "",
                             "fromDate": "",
-                            "toDate": "Rarely"
+                            "toDate": "Selten"
                         }
                     ]
                 }

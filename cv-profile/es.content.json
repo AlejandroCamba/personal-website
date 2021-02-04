@@ -1,6 +1,6 @@
 {
   "name": "Alejandro Camba",
-  "title": "Frontend Engineer",
+  "title": "Software Engineer",
   "email": "alejandroantoniocamb@gmail.com",
   "phone": "xxx-xxxx",
   "address": "",
@@ -14,7 +14,7 @@
           "structure": [
               {
                   "contentName": "text",
-                  "content": "Frontend Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
+                  "content": "3+ Years Experience Software Engineer with a passion for web development, I like taking down new challenges using software best practices and principles to ensure the best possible outcome. I have deep knowledge of the entire software development cycle which makes me a great asset, capable of bridging the gap between the backend, frontend and design departments, boosting the product success chances, we can’t let great ideas go to waste because of bad software!"
               },
               {
                   "contentName": "text",
@@ -39,21 +39,21 @@
                       },
                       {
                           "title": "Senior FullStack Developer",
-                          "body": "Take bigger projects, Database Design, Frontend Architecture, Code Reviewing, Repository Maitainance, Documentation, Training junior developers and interns.",
+                          "body": "Take bigger projects, Database Design, Frontend Architecture, Code Reviewing, Repository Maintainance, Documentation, Training junior developers and interns.",
                           "place": "Andromeda Ventures  -  Caracas, Venezuela",
                           "fromDate": "Jan 2019",
                           "toDate": "Aug 2020"
                       },
                       {
                           "title": "FullStack Developer",
-                          "body": "Desing and Develop Angular SPA Applications and Backends using Nest.js and PostgreSQL",
+                          "body": "Design and Develop Angular SPA Applications and Backends using Nest.js and PostgreSQL",
                           "place": "Andromeda Ventures  -  Caracas, Venezuela",
                           "fromDate": "Jan 2019",
                           "toDate": "Aug 2020"
                       },
                       {
                           "title": "Remote Frontend Developer",
-                          "body": "Develop and mantain Angular SPA Applications, game development using PIXI.js",
+                          "body": "Develop and maintain Angular SPA Applications, game development using PIXI.js",
                           "place": "DOJO Madness  -  Berlin, Germany",
                           "fromDate": "Sep 2017",
                           "toDate": "Apr 2018"
