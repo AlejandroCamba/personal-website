@@ -128,14 +128,14 @@
                             "tabName": "Ausbildung",
                             "content": [
                                 {
-                                    "title": "Informatics Engineering",
-                                    "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
+                                    "title": "Informatik",
+                                    "body": "Äquivalent zu einem CS-Bachelor-Abschluss, mit den Schwerpunkten Mathematik, Statistik, Programmierung, Software-Engineering, Sicherheit, Netzwerk und Management.",
                                     "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
                                     "fromDate": "Jan 2014",
                                     "toDate": "Jan 2019"
                                 },
                                 {
-                                    "title": "Intensive German Language Course Abroad",
+                                    "title": "Intensiv Sprachkurs",
                                     "body": "",
                                     "place": "EF Education First. Munich, Germany",
                                     "fromDate": "Jan 2013",
