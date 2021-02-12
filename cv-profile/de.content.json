@@ -77,13 +77,13 @@
 
                     "contentName": "menu",
                     "content": {
-                        "tabs": ["Kompetenzen", "Sprachen", "Ausbildung"]
+                        "tabs": ["Fähigkeiten", "Sprachen", "Ausbildung"]
                     },
                     "structure": [
                         {
                             "contentName": "skills",
-                            "key": "Kompetenzen",
-                            "tabName": "Kompetenzen",
+                            "key": "Fähigkeiten",
+                            "tabName": "Fähigkeiten",
                             "content": [
                                 {
                                     "title": "HTML/CSS/JavaScript",
