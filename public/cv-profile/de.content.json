@@ -1,6 +1,6 @@
 {
     "name": "Alejandro Camba",
-    "title": "Software Ingenieur",
+    "title": "Softwareentwickler",
     "email": "alejandroantoniocamb@gmail.com",
     "phone": "xxx-xxxx",
     "address": "",
@@ -77,13 +77,13 @@
 
                     "contentName": "menu",
                     "content": {
-                        "tabs": ["Kompetenzen", "Sprachen", "Ausbildung"]
+                        "tabs": ["Fähigkeiten", "Sprachen", "Ausbildung"]
                     },
                     "structure": [
                         {
                             "contentName": "skills",
-                            "key": "Kompetenzen",
-                            "tabName": "Kompetenzen",
+                            "key": "Fähigkeiten",
+                            "tabName": "Fähigkeiten",
                             "content": [
                                 {
                                     "title": "HTML/CSS/JavaScript",
@@ -106,17 +106,17 @@
                                     "description": ""
                                 },
                                 {
-                                    "title": "Leadership",
+                                    "title": "Führung",
                                     "percentage": 80,
                                     "description": ""
                                 },
                                 {
-                                    "title": "New Challenges",
+                                    "title": "Neue Herausforderungen",
                                     "percentage": 100,
                                     "description": ""
                                 },
                                 {
-                                    "title": "Getting Things Done",
+                                    "title": "Dinge erledigen Haltung",
                                     "percentage": 100,
                                     "description": ""
                                 }
@@ -128,14 +128,14 @@
                             "tabName": "Ausbildung",
                             "content": [
                                 {
-                                    "title": "Informatics Engineering",
-                                    "body": "Equivalent to a CS bachelor degree, with an emphasis in Mathematics, Statistics, Programming, Software Engineering, Security, Networking and Management.",
+                                    "title": "Informatik",
+                                    "body": "Äquivalent zu einem CS-Bachelor-Abschluss, mit den Schwerpunkten Mathematik, Statistik, Programmierung, Softwareentwicklung, Sicherheit, Netzwerk und Management.",
                                     "place": "Universidad Catolica Andres Bello. Caracas, Venezuela",
                                     "fromDate": "Jan 2014",
                                     "toDate": "Jan 2019"
                                 },
                                 {
-                                    "title": "Intensive German Language Course Abroad",
+                                    "title": "Intensiv Sprachkurs",
                                     "body": "",
                                     "place": "EF Education First. Munich, Germany",
                                     "fromDate": "Jan 2013",

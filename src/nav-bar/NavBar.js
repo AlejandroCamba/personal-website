@@ -58,7 +58,7 @@ export class NavBar extends Component {
                         ))}
                     </ul>
                 </div>
-                <div className='separtionLine' style={this.props.downloadableStyle ? this.downloadableStyle.separationLine : null}><span class="traveler"></span></div>
+                <div className='separtionLine' style={this.props.downloadableStyle ? this.downloadableStyle.separationLine : null}><span className="traveler"></span></div>
             </div>
         );
         

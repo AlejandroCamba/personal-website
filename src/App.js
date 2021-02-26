@@ -29,9 +29,15 @@ class App extends React.Component {
     }
 
     fetchProfileJSON = () => {
-        fetch(this.state.profileContentFile)
-        .then((r) => r.json())
+        fetch(this.state.profileContentFile, {
+            headers : { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+             }
+          })
+        .then((r) => { console.log('rr', r); return r.json() })
         .then((data) => {
+            console.log('rr2', data);
             this.navBarOptions = Object.keys(data.sections).map((section) => ({
                 key: section,
                 tabName: data.sections[section].tabName,
@@ -46,6 +52,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
+        console.log(this.state.profileContentFile);
         this.fetchProfileJSON();
     }
 
